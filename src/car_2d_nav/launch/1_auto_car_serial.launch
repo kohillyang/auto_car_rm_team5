@@ -1,0 +1,8 @@
+<launch>
+    <!-- Run serial_comm -->
+    <node pkg="serial_comm"  name="comm_read"   type="comm_read" output="screen"/>
+  
+    <!-- Run serial_write -->
+    <node pkg="serial_comm"  name="comm_write"  type="comm_write" output="screen"/>
+ 
+</launch>

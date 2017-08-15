@@ -1,0 +1,11 @@
+<launch>
+
+    <!-- Run configration-->
+    <include file="/home/ubuntu/auto_car/src/car_2d_nav/launch/car_config.launch"/>
+   
+    <!-- Run navgation-->
+    <include file="/home/ubuntu/auto_car/src/car_2d_nav/launch/car_nav.launch"/>
+
+
+
+</launch>

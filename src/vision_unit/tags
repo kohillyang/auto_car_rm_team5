@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANLS_SCAN_H	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	2;"	d
+AbsPos	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^struct AbsPos$/;"	s
+DETECT_FACTORY_H	include/vision_unit/detect_factory/detect_factory.h	2;"	d
+LABELER_H	include/vision_unit/detect_factory/labeler.h	2;"	d
+Lidar2Camera	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	/^class Lidar2Camera$/;"	c
+Lidar2Camera	src/vision_lidar_fusion/lidar2camera_node.cpp	/^Lidar2Camera::Lidar2Camera()$/;"	f	class:Lidar2Camera
+RUNE_DETECT_H	include/vision_unit/detect_factory/rune_detect.h	2;"	d
+RelPos	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^struct RelPos$/;"	s
+VIDEO_RECODER	include/vision_unit/detect_factory/video_recoder.h	2;"	d
+VISION_LIDAR_FUSION_H	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	2;"	d
+VISION_PARAM_H	include/vision_unit/detect_factory/vision_param.h	2;"	d
+VisionLidarFusion	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^class VisionLidarFusion$/;"	c
+_DEBUG_VISION	include/vision_unit/detect_factory/draw.h	7;"	d
+_DEBUG_VISION	src/detect_factory/armor_detect_node.cpp	11;"	d	file:
+_DEBUG_VISION	src/detect_factory/draw.cpp	2;"	d	file:
+_UTIL_H_	include/vision_unit/detect_factory/util.h	2;"	d
+__ARMOR_H__	include/vision_unit/detect_factory/armor_detect.h	2;"	d
+__DEBUG_UTILITY_H__	include/vision_unit/detect_factory/debug_utility.hpp	2;"	d
+__DRAW_H__	include/vision_unit/detect_factory/draw.h	2;"	d
+__THREAD_OPERATION_H__	include/vision_unit/detect_factory/armor_detect_node.h	2;"	d
+__UTILITY_H__	include/vision_unit/detect_factory/image_utility.h	2;"	d
+ang_lim	include/vision_unit/detect_factory/armor_detect_node.h	/^    double ang_lim = 3.0\/180*3.14;$/;"	m	class:autocar::vision_mul::armor_detect_node
+armor	include/vision_unit/detect_factory/armor_detect.h	/^  armor_info *armor;$/;"	m	class:autocar::vision_mul::armor_detecter
+armor	include/vision_unit/detect_factory/armor_detect.h	/^  cv::RotatedRect armor;$/;"	m	class:autocar::vision_mul::armor_info
+armor_	include/vision_unit/detect_factory/armor_detect_node.h	/^    armor_info *armor_;$/;"	m	class:autocar::vision_mul::armor_detect_node
+armor_angle_	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double armor_angle_;$/;"	m	class:VisionLidarFusion
+armor_detect_node	include/vision_unit/detect_factory/armor_detect_node.h	/^class armor_detect_node$/;"	c	namespace:autocar::vision_mul
+armor_detect_node	src/detect_factory/armor_detect_node.cpp	/^armor_detect_node::armor_detect_node(void)$/;"	f	class:autocar::vision_mul::armor_detect_node
+armor_detecter	include/vision_unit/detect_factory/armor_detect.h	/^class armor_detecter: public detect_factory$/;"	c	namespace:autocar::vision_mul
+armor_detecter	src/detect_factory/armor_detect.cpp	/^armor_detecter::armor_detecter(bool debug_on)$/;"	f	class:autocar::vision_mul::armor_detecter
+armor_dist_	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double armor_dist_;$/;"	m	class:VisionLidarFusion
+armor_index_	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  int armor_index_;$/;"	m	class:VisionLidarFusion
+armor_info	include/vision_unit/detect_factory/armor_detect.h	/^  armor_info(int type_, cv::RotatedRect armor_, std::vector<cv::Point2f> points_, cv::RotatedRect left_=cv::RotatedRect(), cv::RotatedRect right_=cv::RotatedRect())$/;"	f	class:autocar::vision_mul::armor_info
+armor_info	include/vision_unit/detect_factory/armor_detect.h	/^class armor_info$/;"	c	namespace:autocar::vision_mul
+armor_info	src/detect_factory/armor_detect.cpp	/^armor_info::armor_info()$/;"	f	class:autocar::vision_mul::armor_info
+armor_pos	include/vision_unit/detect_factory/armor_detect_node.h	/^    vision_unit::armor_msg armor_pos;$/;"	m	class:autocar::vision_mul::armor_detect_node
+autocar	include/vision_unit/detect_factory/armor_detect.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/armor_detect_node.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/detect_factory.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/image_utility.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/labeler.h	/^namespace autocar {$/;"	n
+autocar	include/vision_unit/detect_factory/rune_detect.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/util.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/video_recoder.h	/^namespace autocar$/;"	n
+autocar	include/vision_unit/detect_factory/vision_param.cpp	/^namespace autocar$/;"	n	file:
+autocar	include/vision_unit/detect_factory/vision_param.h	/^namespace autocar$/;"	n
+autocar	src/detect_factory/armor_detect.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/armor_detect_node.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/image_utility.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/labeler.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/rune_detect.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/util.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/video_recoder.cpp	/^namespace autocar$/;"	n	file:
+autocar	src/detect_factory/vision_param.cpp	/^namespace autocar$/;"	n	file:
+cal_armor_info	src/detect_factory/armor_detect.cpp	/^void armor_detecter::cal_armor_info(std::vector<cv::Point2f> &armor_points, cv::RotatedRect left_light, cv::RotatedRect right_light)$/;"	f	class:autocar::vision_mul::armor_detecter
+calcLineDegree	src/detect_factory/image_utility.cpp	/^double calcLineDegree(const cv::Point2f& firstPt, const cv::Point2f& secondPt)$/;"	f	namespace:autocar::vision_mul
+cam	include/vision_unit/detect_factory/armor_detect_node.h	/^    double cam[9] = {839.923052, 0.0,        340.780730,$/;"	m	class:autocar::vision_mul::armor_detect_node
+camera_matrix	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat camera_matrix;$/;"	m	class:autocar::vision_mul::armor_detect_node
+camera_matrix	include/vision_unit/detect_factory/vision_param.h	/^  cv::Mat camera_matrix;$/;"	m	class:autocar::vision_mul::vision_param
+center_point	src/detect_factory/image_utility.cpp	/^T center_point(const T &point1, const T &point2)$/;"	f	namespace:autocar::vision_mul
+cols	include/vision_unit/detect_factory/labeler.h	/^        int cols;$/;"	m	class:autocar::vision_mul::labeler
+cols	include/vision_unit/detect_factory/video_recoder.h	/^        int cols;$/;"	m	class:autocar::vision_mul::video_recoder
+console_log	include/vision_unit/detect_factory/debug_utility.hpp	30;"	d
+count	include/vision_unit/detect_factory/labeler.h	/^        int count;$/;"	m	class:autocar::vision_mul::labeler
+debug_on	include/vision_unit/detect_factory/armor_detect_node.h	/^    bool debug_on;$/;"	m	class:autocar::vision_mul::armor_detect_node
+debug_on_	include/vision_unit/detect_factory/armor_detect.h	/^  bool debug_on_;$/;"	m	class:autocar::vision_mul::armor_detecter
+debug_vision	src/detect_factory/armor_detect.cpp	/^void armor_detecter::debug_vision()$/;"	f	class:autocar::vision_mul::armor_detecter
+detect	src/detect_factory/armor_detect.cpp	/^bool armor_detecter::detect(const cv::Mat &image, bool detect_blue)$/;"	f	class:autocar::vision_mul::armor_detecter
+detect	src/detect_factory/rune_detect.cpp	/^void rune_detect::detect()$/;"	f	class:autocar::vision_mul::rune_detect
+detect_factory	include/vision_unit/detect_factory/detect_factory.h	/^class detect_factory$/;"	c	namespace:autocar::vision_mul
+detect_lights	src/detect_factory/armor_detect.cpp	/^std::vector<cv::RotatedRect> armor_detecter::detect_lights(bool detect_blue)$/;"	f	class:autocar::vision_mul::armor_detecter
+detected_armor	include/vision_unit/detect_factory/armor_detect_node.h	/^    bool detected_armor;$/;"	m	class:autocar::vision_mul::armor_detect_node
+dist_c	include/vision_unit/detect_factory/armor_detect_node.h	/^    double dist_c[5] = {0.082613, 0.043275, 0.002486, -0.000823, 0.0};$/;"	m	class:autocar::vision_mul::armor_detect_node
+dist_coeffs	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat dist_coeffs;$/;"	m	class:autocar::vision_mul::armor_detect_node
+dist_coeffs	include/vision_unit/detect_factory/vision_param.h	/^  cv::Mat dist_coeffs;$/;"	m	class:autocar::vision_mul::vision_param
+distance	src/detect_factory/image_utility.cpp	/^double distance(T x1, T y1, T x2, T y2)$/;"	f	namespace:autocar::vision_mul
+distance	src/detect_factory/image_utility.cpp	/^double distance(const cv::Point_<T> &point1, const cv::Point_<T> &point2)$/;"	f	namespace:autocar::vision_mul
+draw_circle	src/detect_factory/draw.cpp	/^void draw_circle(const cv::Mat &img, const cv::Point &center, int radius, const cv::Scalar &color, int thickness)$/;"	f
+draw_rotated_rect	src/detect_factory/draw.cpp	/^void draw_rotated_rect(const cv::Mat &img, const cv::RotatedRect &rect, const cv::Scalar &color, int thickness)$/;"	f
+draw_rotated_rects	src/detect_factory/draw.cpp	/^void draw_rotated_rects(const cv::Mat &img, const std::vector<cv::RotatedRect> &rects, const cv::Scalar &color, int thickness, bool tab, const cv::Scalar &text_color)$/;"	f
+filter_by_features	src/detect_factory/armor_detect.cpp	/^std::vector<armor_info> armor_detecter::filter_by_features(std::vector<armor_info> &armors)$/;"	f	class:autocar::vision_mul::armor_detecter
+filter_lights	src/detect_factory/armor_detect.cpp	/^std::vector<cv::RotatedRect> armor_detecter::filter_lights(const std::vector<cv::RotatedRect> &lights, float thresh_max_angle, float thresh_min_area)$/;"	f	class:autocar::vision_mul::armor_detecter
+find_contours	src/detect_factory/armor_detect.cpp	/^std::vector<std::vector<cv::Point>> armor_detecter::find_contours(const cv::Mat &binary)$/;"	f	class:autocar::vision_mul::armor_detecter
+for_each	src/detect_factory/image_utility.cpp	/^void for_each(const cv::RotatedRect &rect, const std::function<void(int, int)> &func, int xstep, int ystep)$/;"	f	namespace:autocar::vision_mul
+for_each	src/detect_factory/image_utility.cpp	/^void for_each(const cv::RotatedRect &rect, float xmin, float ymin, float xmax, float ymax, const std::function<void(int, int)> &func, int xstep, int ystep)$/;"	f	namespace:autocar::vision_mul
+forward_back	include/vision_unit/detect_factory/armor_detect_node.h	/^    bool forward_back;$/;"	m	class:autocar::vision_mul::armor_detect_node
+fusionLidarCam	src/vision_lidar_fusion/vision_lidar_fusion.cpp	/^void VisionLidarFusion::fusionLidarCam(const vision_unit::transformed_scanConstPtr transformed_scan)$/;"	f	class:VisionLidarFusion
+gen_sample	src/detect_factory/labeler.cpp	/^void labeler::gen_sample(const cv::Mat &image, std::vector<armor_info> armors) {$/;"	f	class:autocar::vision_mul::labeler
+getRcDegree	src/detect_factory/image_utility.cpp	/^double getRcDegree(const cv::RotatedRect &box)$/;"	f	namespace:autocar::vision_mul
+get_armor	src/detect_factory/armor_detect.cpp	/^armor_info* armor_detecter::get_armor()$/;"	f	class:autocar::vision_mul::armor_detecter
+get_armor	src/detect_factory/armor_detect_node.cpp	/^armor_info* armor_detect_node::get_armor()$/;"	f	class:autocar::vision_mul::armor_detect_node
+get_camera_num	src/detect_factory/armor_detect_node.cpp	/^bool armor_detect_node::get_camera_num()$/;"	f	class:autocar::vision_mul::armor_detect_node
+get_linear_parameters	src/detect_factory/image_utility.cpp	/^std::pair<double, double> get_linear_parameters(T point1, T point2)$/;"	f	namespace:autocar::vision_mul
+get_linear_parameters	src/detect_factory/image_utility.cpp	/^std::pair<double, double> get_linear_parameters(T x1, T y1, T x2, T y2)$/;"	f	namespace:autocar::vision_mul
+get_linear_x	src/detect_factory/image_utility.cpp	/^T get_linear_x(double coefficient, double intercept, T y)$/;"	f	namespace:autocar::vision_mul
+get_linear_y	src/detect_factory/image_utility.cpp	/^T get_linear_y(double coefficient, double intercept, T x)$/;"	f	namespace:autocar::vision_mul
+goal	include/vision_unit/detect_factory/armor_detect_node.h	/^    move_base_msgs::MoveBaseGoal goal;$/;"	m	class:autocar::vision_mul::armor_detect_node
+goal_pose	include/vision_unit/detect_factory/armor_detect_node.h	/^    move_base_msgs::MoveBaseGoal goal_pose;$/;"	m	class:autocar::vision_mul::armor_detect_node
+highlight_blue_or_red	src/detect_factory/armor_detect.cpp	/^cv::Mat armor_detecter::highlight_blue_or_red(const cv::Mat &image, bool detect_blue)$/;"	f	class:autocar::vision_mul::armor_detecter
+if_detected_armor	src/detect_factory/armor_detect_node.cpp	/^bool armor_detect_node::if_detected_armor()$/;"	f	class:autocar::vision_mul::armor_detect_node
+if_less_equal	include/vision_unit/detect_factory/image_utility.h	9;"	d
+if_more_equal	include/vision_unit/detect_factory/image_utility.h	10;"	d
+if_more_swap	include/vision_unit/detect_factory/image_utility.h	11;"	d
+img_dir	include/vision_unit/detect_factory/labeler.h	/^        std::string img_dir;$/;"	m	class:autocar::vision_mul::labeler
+img_p	include/vision_unit/detect_factory/armor_detect_node.h	/^    std::vector<cv::Point2f> img_p;$/;"	m	class:autocar::vision_mul::armor_detect_node
+img_points	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat img_points;$/;"	m	class:autocar::vision_mul::armor_detect_node
+imshowd	src/detect_factory/draw.cpp	/^void imshowd(const cv::String &winname, const cv::Mat &img)$/;"	f
+label_img_dir	include/vision_unit/detect_factory/labeler.h	/^        std::string label_img_dir;$/;"	m	class:autocar::vision_mul::labeler
+label_txt_dir	include/vision_unit/detect_factory/labeler.h	/^        std::string label_txt_dir;$/;"	m	class:autocar::vision_mul::labeler
+labeler	include/vision_unit/detect_factory/labeler.h	/^    class labeler {$/;"	c	namespace:autocar::vision_mul
+labeler	src/detect_factory/labeler.cpp	/^labeler::labeler(std::string img_dir_, std::string label_img_dir_, std::string label_txt_dir_, int cols_, int rows_) {$/;"	f	class:autocar::vision_mul::labeler
+left_light	include/vision_unit/detect_factory/armor_detect.h	/^  cv::RotatedRect left_light;$/;"	m	class:autocar::vision_mul::armor_info
+m_binary_brightness	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_binary_brightness;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_binary_color	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_binary_color;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_binary_light	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_binary_light;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_common	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_common;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_gray	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_gray;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_image	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_image;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_img_buff	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat m_img_buff[2];$/;"	m	class:autocar::vision_mul::armor_detect_node
+m_show	include/vision_unit/detect_factory/armor_detect.h	/^  cv::Mat m_show;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_dis_lower	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_dis_lower;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_dis_lower	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_dis_lower = 1.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_dis_upper	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_dis_upper;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_dis_upper	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_dis_upper = 3.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_gray	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_gray;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_gray	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_gray = 100.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_height	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_height;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_height	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_height = 2.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_len	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_len;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_len	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_len = 3.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_max_angle	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_max_angle;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_max_angle	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_max_angle = 15.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+m_threshold_min_area	include/vision_unit/detect_factory/armor_detect.h	/^  const static float m_threshold_min_area;$/;"	m	class:autocar::vision_mul::armor_detecter
+m_threshold_min_area	src/detect_factory/armor_detect.cpp	/^const float armor_detecter::m_threshold_min_area = 5.0f;$/;"	m	class:autocar::vision_mul::armor_detecter	file:
+main	src/detect_factory/main.cpp	/^int main(int argc, char **argv)$/;"	f
+main	src/vision_lidar_fusion/lidar2camera_node.cpp	/^int main(int argc, char **argv)$/;"	f
+main	src/vision_lidar_fusion/vision_lidar_fusion.cpp	/^int main(int argc, char **argv)$/;"	f
+obj_p	include/vision_unit/detect_factory/armor_detect_node.h	/^    std::vector<cv::Point3f> obj_p;$/;"	m	class:autocar::vision_mul::armor_detect_node
+obj_points	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat obj_points;$/;"	m	class:autocar::vision_mul::armor_detect_node
+pan_info_callback	src/detect_factory/armor_detect_node.cpp	/^void armor_detect_node::pan_info_callback(const serial_comm::car_speed::ConstPtr &pan_data)$/;"	f	class:autocar::vision_mul::armor_detect_node
+pan_yaw	include/vision_unit/detect_factory/armor_detect_node.h	/^    float pan_yaw;$/;"	m	class:autocar::vision_mul::armor_detect_node
+point_in_line	src/detect_factory/image_utility.cpp	/^bool point_in_line(const T &point1, const T &point2, const T &point)$/;"	f	namespace:autocar::vision_mul
+point_to_line	src/detect_factory/image_utility.cpp	/^double point_to_line(double coefficient, double intercept, const T &point)$/;"	f	namespace:autocar::vision_mul
+points	include/vision_unit/detect_factory/armor_detect.h	/^  std::vector<cv::Point2f> points;$/;"	m	class:autocar::vision_mul::armor_info
+possible_armors	src/detect_factory/armor_detect.cpp	/^std::vector<armor_info> armor_detecter::possible_armors(const std::vector<cv::RotatedRect> &lights, float thres_max_angle, float thres_dis_lower, float thres_dis_upper, float thres_len, float thres_height, float thres_gray, bool detect_blue)$/;"	f	class:autocar::vision_mul::armor_detecter
+pub	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	/^  ros::Publisher pub;$/;"	m	class:Lidar2Camera
+pub_armor_pos	include/vision_unit/detect_factory/armor_detect_node.h	/^    ros::Publisher pub_armor_pos, pub_goal;$/;"	m	class:autocar::vision_mul::armor_detect_node
+pub_goal	include/vision_unit/detect_factory/armor_detect_node.h	/^    ros::Publisher pub_armor_pos, pub_goal;$/;"	m	class:autocar::vision_mul::armor_detect_node
+read_params	include/vision_unit/detect_factory/vision_param.cpp	/^void vision_param::read_params()$/;"	f	class:autocar::vision_mul::vision_param
+read_params	src/detect_factory/vision_param.cpp	/^void vision_param::read_params()$/;"	f	class:autocar::vision_mul::vision_param
+receive_armor_info	src/vision_lidar_fusion/vision_lidar_fusion.cpp	/^void VisionLidarFusion::receive_armor_info(const vision_unit::armor_msgConstPtr armor_info)$/;"	f	class:VisionLidarFusion
+right_light	include/vision_unit/detect_factory/armor_detect.h	/^  cv::RotatedRect right_light;$/;"	m	class:autocar::vision_mul::armor_info
+rows	include/vision_unit/detect_factory/labeler.h	/^        int rows;$/;"	m	class:autocar::vision_mul::labeler
+rows	include/vision_unit/detect_factory/video_recoder.h	/^        int rows;$/;"	m	class:autocar::vision_mul::video_recoder
+rune_detect	include/vision_unit/detect_factory/rune_detect.h	/^class rune_detect: public detect_factory$/;"	c	namespace:autocar::vision_mul
+rune_detect	src/detect_factory/rune_detect.cpp	/^rune_detect::rune_detect()$/;"	f	class:autocar::vision_mul::rune_detect
+running	src/detect_factory/armor_detect_node.cpp	/^void armor_detect_node::running(void)$/;"	f	class:autocar::vision_mul::armor_detect_node
+rvec	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat rvec;$/;"	m	class:autocar::vision_mul::armor_detect_node
+save_frame	src/detect_factory/video_recoder.cpp	/^void video_recoder::save_frame(const cv::Mat &image)$/;"	f	class:autocar::vision_mul::video_recoder
+scan_	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	/^  sensor_msgs::LaserScan scan_;$/;"	m	class:Lidar2Camera
+score	include/vision_unit/detect_factory/armor_detect.h	/^  float score;$/;"	m	class:autocar::vision_mul::armor_info
+set_camera_exposure	src/detect_factory/util.cpp	/^int set_camera_exposure(std::string id, int val)$/;"	f	namespace:autocar::vision_mul
+set_image_points	src/detect_factory/armor_detect_node.cpp	/^void armor_detect_node::set_image_points(std::vector<cv::Point2f> armor_points)$/;"	f	class:autocar::vision_mul::armor_detect_node
+slect_final_armor	src/detect_factory/armor_detect.cpp	/^void armor_detecter::slect_final_armor(std::vector<armor_info> all_armors)$/;"	f	class:autocar::vision_mul::armor_detecter
+speed_test_begin	include/vision_unit/detect_factory/debug_utility.hpp	12;"	d
+speed_test_end	include/vision_unit/detect_factory/debug_utility.hpp	13;"	d
+speed_test_reset	include/vision_unit/detect_factory/debug_utility.hpp	16;"	d
+speed_test_start_begin_time	include/vision_unit/detect_factory/armor_detect.h	/^  std::chrono::system_clock::time_point speed_test_start_begin_time;$/;"	m	class:autocar::vision_mul::armor_detecter
+squaredist	src/detect_factory/image_utility.cpp	/^double squaredist(T x1, T y1, T x2, T y2)$/;"	f	namespace:autocar::vision_mul
+squaredist	src/detect_factory/image_utility.cpp	/^double squaredist(const cv::Point_<T> &point1, const cv::Point_<T> &point2)$/;"	f	namespace:autocar::vision_mul
+sub	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	/^  ros::Subscriber sub;$/;"	m	class:Lidar2Camera
+sub_camera_	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  ros::Subscriber sub_camera_;$/;"	m	class:VisionLidarFusion
+sub_transformed_scan_	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  ros::Subscriber sub_transformed_scan_;$/;"	m	class:VisionLidarFusion
+sub_yaw	include/vision_unit/detect_factory/armor_detect_node.h	/^    ros::Subscriber sub_yaw;$/;"	m	class:autocar::vision_mul::armor_detect_node
+to_light_rects	src/detect_factory/armor_detect.cpp	/^std::vector<cv::RotatedRect> armor_detecter::to_light_rects(const std::vector<std::vector<cv::Point>> &contours_light, const std::vector<std::vector<cv::Point>> &contours_brightness)$/;"	f	class:autocar::vision_mul::armor_detecter
+transfData	src/vision_lidar_fusion/lidar2camera_node.cpp	/^void Lidar2Camera::transfData(const sensor_msgs::LaserScan::ConstPtr scan)$/;"	f	class:Lidar2Camera
+transformed_scan_	include/vision_unit/vision_lidar_fusion/lidar2camera_node.h	/^  vision_unit::transformed_scan transformed_scan_;$/;"	m	class:Lidar2Camera
+tvec	include/vision_unit/detect_factory/armor_detect_node.h	/^    cv::Mat tvec;$/;"	m	class:autocar::vision_mul::armor_detect_node
+type	include/vision_unit/detect_factory/armor_detect.h	/^  int type;$/;"	m	class:autocar::vision_mul::armor_info
+video_recoder	include/vision_unit/detect_factory/video_recoder.h	/^    class video_recoder {$/;"	c	namespace:autocar::vision_mul
+video_recoder	src/detect_factory/video_recoder.cpp	/^video_recoder::video_recoder(std::string video_dir_, int cols_, int rows_)$/;"	f	class:autocar::vision_mul::video_recoder
+visionLidar_fusion	src/vision_lidar_fusion/vision_lidar_fusion.cpp	/^VisionLidarFusion::visionLidar_fusion()$/;"	f	class:VisionLidarFusion
+vision_mul	include/vision_unit/detect_factory/armor_detect.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/armor_detect_node.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/detect_factory.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/image_utility.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/labeler.h	/^namespace vision_mul {$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/rune_detect.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/util.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/video_recoder.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	include/vision_unit/detect_factory/vision_param.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	include/vision_unit/detect_factory/vision_param.h	/^namespace vision_mul$/;"	n	namespace:autocar
+vision_mul	src/detect_factory/armor_detect.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/armor_detect_node.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/image_utility.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/labeler.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/rune_detect.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/util.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/video_recoder.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_mul	src/detect_factory/vision_param.cpp	/^namespace vision_mul$/;"	n	namespace:autocar	file:
+vision_param	include/vision_unit/detect_factory/vision_param.cpp	/^vision_param::vision_param()$/;"	f	class:autocar::vision_mul::vision_param
+vision_param	include/vision_unit/detect_factory/vision_param.h	/^class vision_param: public param_mul::param_manager$/;"	c	namespace:autocar::vision_mul
+vision_param	src/detect_factory/vision_param.cpp	/^vision_param::vision_param()$/;"	f	class:autocar::vision_mul::vision_param
+writer	include/vision_unit/detect_factory/video_recoder.h	/^        cv::VideoWriter writer;$/;"	m	class:autocar::vision_mul::video_recoder
+x	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double x;$/;"	m	struct:AbsPos
+x	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double x;$/;"	m	struct:RelPos
+y	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double y;$/;"	m	struct:AbsPos
+y	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double y;$/;"	m	struct:RelPos
+z	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double z;$/;"	m	struct:AbsPos
+z	include/vision_unit/vision_lidar_fusion/vision_lidar_fusion.h	/^  double z;$/;"	m	struct:RelPos
+~armor_detect_node	src/detect_factory/armor_detect_node.cpp	/^armor_detect_node::~armor_detect_node(void)$/;"	f	class:autocar::vision_mul::armor_detect_node
+~labeler	src/detect_factory/labeler.cpp	/^labeler::~labeler() {$/;"	f	class:autocar::vision_mul::labeler
+~video_recoder	src/detect_factory/video_recoder.cpp	/^video_recoder::~video_recoder()$/;"	f	class:autocar::vision_mul::video_recoder
